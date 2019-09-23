@@ -1,0 +1,31 @@
+{
+  "name": "mi-bachelor-webdevelopment",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "glob-fs": "^0.1.7",
+    "node-run-cmd": "^1.0.1",
+    "prompt": "^1.0.0",
+    "reveal-md": "^2.0.5"
+  },
+  "devDependencies": {
+    "copy-dir": "^0.3.0",
+    "font-awesome": "^4.7.0",
+    "fs-extra": "^6.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mi-slides/core/mi-slides.js mi-slides-server",
+    "static": "node mi-slides/core/mi-slides.js static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariofaske/mi-bachelor-webdevelopment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariofaske/mi-bachelor-webdevelopment/issues"
+  },
+  "homepage": "https://github.com/mariofaske/mi-bachelor-webdevelopment#readme"
+}
