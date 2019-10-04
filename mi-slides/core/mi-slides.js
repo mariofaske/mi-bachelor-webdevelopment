@@ -13,12 +13,12 @@ const fullpath_slidedecks = basepath + "/" + path_slidedecks;
 const static = "--static";
 const staticDefaultOutput = "static";
 const slidesDefaultOutput = '_lehrveranstaltungen'
-const staticDirs = "../../mi-slides/custom-themes";
+const staticDirs = `mi-slides/custom-themes`; // "../../mi-slides/custom-themes"
 const staticAdditionalContent = ["examples", "images", "assignments", "links", "assas"];
 
 const theme = "/mi-slides/custom-themes/medieninformatik-semantic.css";
 const preprocessor = "mi-slides/core/reveal-md-pre.js";
-const script = "mi-slides/core/reveal-md-add-icons.js"; 
+const script = "mi-slides/core/reveal-md-add-icons.js";
 
 let params = process.argv[3];
 const reveal_command = {};
